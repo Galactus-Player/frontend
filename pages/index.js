@@ -10,40 +10,32 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://nextjs.org">Galactus</a>
         </h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          A Syncronized Video Experience
         </p>
 
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/y8OnoxKotPQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
 
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a
+            href="Galactus.com/2540"
+            className="card"
+          >
+            <h3>Invite your Friends &rarr;</h3>
+            <p>
+              Share <a href='Galactus.com/2540'>2540</a> to invite others!
+            </p>
           </a>
-
           <a
             href="https://github.com/vercel/next.js/tree/master/examples"
             className="card"
           >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+            <h3>Leave Room &rarr;</h3>
+            <p>Create a New Room</p>
           </a>
         </div>
       </main>
@@ -98,7 +90,7 @@ export default function Home() {
         }
 
         a {
-          color: inherit;
+          color: #0070f3;
           text-decoration: none;
         }
 
